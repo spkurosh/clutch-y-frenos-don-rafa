@@ -207,3 +207,8 @@ footer .general{
     font-weight: 500;
     line-height: 1.4rem;
 }
+.general a{
+    color: var(--black);
+    font-weight: bold;
+    text-decoration: none;
+}
