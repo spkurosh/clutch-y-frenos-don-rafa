@@ -10,6 +10,7 @@
    --black: #41444b;
    --gray: #52575d;
    --yellow: #FFFD37;
+   --white: #faf8f7;
    --offwhite: #f6f4e6;
    --black: #282623;
 }
@@ -70,7 +71,7 @@ header img{
     padding: 15px;
     width: 229px;
     height: 48px;
-    background-color: var(--offwhite);
+    background-color: var(--white);
     /* Sombra*/
     box-shadow: 0px 4px 8px rgba(89,73,30,0.16);
     border: none;
@@ -94,3 +95,93 @@ header img{
     background-position: center;
     background-repeat: no-repeat;
 }
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--offwhite);
+} 
+
+.main-services-detail{
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    padding: 20px 10px;
+}
+.service-detail--title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 30px;
+    text-align: center;
+}
+.service-detail--title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;   
+    line-height: 2.6rem;
+    color: var(--black) 
+}
+.service-detail--title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;   
+    line-height: 1.8rem;
+    color: var(--gray);
+}
+.service-detail--card{
+    width: 90%;
+    min-width: 282px;
+    max-width: 400px;
+    min-height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #EED202;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.service--card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+}
+.service--card-body{
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--gray);
+ }
+
+/* 
+.main-brands-container{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.brands-title{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.brands-title h2{
+    padding-top: 50px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.brands-title p{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: var(--gray);
+} */
+
