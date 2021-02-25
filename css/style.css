@@ -53,6 +53,7 @@ header img{
     font-weight: bold;
     line-height: 2.6rem;
     color: var(--black);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .header--title-container p{
     margin-top: 25px;
@@ -134,7 +135,7 @@ main{
     width: 90%;
     min-width: 282px;
     max-width: 400px;
-    min-height: 150px;
+    min-height: 50px;
     margin: 15px auto;
     padding: 15px;
     background-color: #EED202;
@@ -142,11 +143,13 @@ main{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
 }
 .service--card-title{
+    padding-top: 10px;
     margin-bottom: 15px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 1.8rem;
     color: var(--black);
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
 }
 .service--card-body{
     margin-bottom: 15px;
