@@ -31,14 +31,21 @@ header{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 170px;
     text-align: center;
     background: linear-gradient(207.8deg,var(--Goldenrod) 40.69%, var(--yellow) 100%);
 }
-header img{
-    margin-top: 30px;
-    width: 150px;
-    align-self: center;
+header .clutch{
+    position: absolute;
+    top: 40px;
+    left: calc(50% + 75px);
+    width: 80px;
+}
+header .volante{
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 158px);
+    width: 80px;
 }
 .header--title-container{
     width: 90%;
@@ -77,7 +84,6 @@ header img{
                  4px 4px 0 black,
                  5px 5px 0 black,
                  6px 6px 0 black;
-                 ef8d32
 }
 .header--title-container p{
     margin-top: 25px;
@@ -90,7 +96,7 @@ header img{
 .header--title-container .header--button{
     position: absolute;
     left: calc(50% - 118px);
-    top: 270px;
+    top: 115px;
     display: block;
     margin-top: 35px;
     padding: 15px;
