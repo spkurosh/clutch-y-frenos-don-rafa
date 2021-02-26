@@ -48,12 +48,19 @@ header .volante{
     left: calc(50% - 158px);
     width: 80px;
 }
+header .donRafaLogo{
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 80px);
+    width: 150px;
+}
 .header--title-container{
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     height: 218px;
     margin-top: 20px;
+    padding-top: 80px;
     text-align: center;
     align-self: center;
 }
