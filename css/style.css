@@ -38,15 +38,15 @@ header{
 }
 header .clutch{
     position: absolute;
-    top: 40px;
-    left: calc(50% + 50px);
-    width: 100px;
+    top: 30px;
+    left: calc(50% + 35px);
+    width: 130px;
 }
 header .volante{
     position: absolute;
-    top: 40px;
-    left: calc(50% - 158px);
-    width: 100px;
+    top: 30px;
+    left: calc(50% - 170px);
+    width: 130px;
 }
 header .donRafaLogo{
     position: absolute;
